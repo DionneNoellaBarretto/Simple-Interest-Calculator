@@ -1,4 +1,29 @@
-body {background-color:tan;}
-h1{color:green;}
+*{
+   margin: 1em;
+   padding: 0.5em; 
+}
 
+body {
+    background-color:rgb(243, 216, 181);
+    border: 1px dashed black;
+    text-align: center;
+    font-weight: bolder;
+}
 
+h1{
+    color:rgb(27, 150, 27);
+    text-align: center;
+    text-decoration: underline;
+}
+
+#result{
+   color: black;
+   font-size: 2em;
+   font-weight: bolder;
+   text-decoration: double;
+}
+
+button{
+    border-radius: 1px;
+    cursor: pointer;
+}

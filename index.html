@@ -1,16 +1,24 @@
+<!DOCTYPE html>
 <html>
-    <head>
+
+<head>
+    <title>A Simple Interest Calculator</title>
+    <link rel="shortcut icon" type="image/png" href="./1200px-Calculator_icon.svg.png" />
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Simple Interest Calculator</h1>
+</head>
 
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+<body>
+    <h1>Simple Interest Calculator</h1>
 
-        <button onclick="compute()">Compute</button>
-    </body>
+    <section>
+    <u>Enter a Principal Amount (p): </u> <input type="number" id="principal"> <br />
+    <u>Enter Interest Rate(i): </u> <input type="number" id="rate"> <br />
+    <u>Enter No. of Years(y): </u> <input type="number" id="years"> <br />
+    <span id="result"></span><br>
+    </section>
+
+    <button onclick="compute()" title="Click to compute Simple Interest Amount Accrued">Compute</button>
+</body>
+
 </html>
