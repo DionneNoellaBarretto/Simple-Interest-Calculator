@@ -14,7 +14,7 @@ As a web developer for an NGO create an online application called 'Simple Intere
 📄 [Github Page](https://dionnenoellabarretto.github.io/Simple-Interest-Calculator/)
 
 
-## Application Functionality Screenshots
+## Application Functionality Screenshot
 
 The following images show the web application's appearance and functionality:
 Simple Interest Calculator: 
